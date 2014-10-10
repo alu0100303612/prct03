@@ -8,7 +8,9 @@
 Hello world
  => nil 
 
+
 21. ¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete de Ruby
+
 alu3305@cc417:~/Desktop/lpp/prct03$ irb Helloworld.rb
 2.0.0p247 :001 > #!/usr/bin/ruby
 2.0.0p247 :002 >   puts "Hello world"2.0.0p247 :002 >   
@@ -20,8 +22,7 @@ Hello world
 alu3305@cc417:~/Desktop/lpp/prct03$ ruby Helloworld.rb
 Hello world
 
-La ejecución del programa "Hola Mundo" con el intérprete de Ruby ejecuta el programa y muestra el resultado de la ejecución. Con el intérprete de irb se va ejecutando el código línea a línea y siempre devuelve un objeto (nil en este caso).
-
+La ejecución del programa "Hola Mundo" con el intérprete de Ruby ejecuta el programa y muestra la ejecución. Con el intérprete de irb muestra las líneas de código que se van ejecutando y siempre devuelve un objeto (nil en este caso).
 26. ¿Cuál es el resultado de cada una de las siguientes operaciones?
 [1] pry(main)> puts x
 ???
@@ -60,6 +61,7 @@ bye bye world!!!
 program resumes here. Value of x is: changed.
 
 27. ¿Cuáles son las diferencias entre la ejecución del programa"Hola Mundo"con el intérprete interactivo y con pry?
+
 alu3305@cc417:~/Desktop/lpp/prct03$ irb Helloworld.rb
 2.0.0p247 :001 > #!/usr/bin/ruby
 2.0.0p247 :002 >   puts "Hello world"2.0.0p247 :002 >   
@@ -69,8 +71,6 @@ Hello world
  
 alu3305@cc417:~/Desktop/lpp/prct03$ pry Helloworld.rb
 Hello world
-
-Con el intérprete irb se va ejecutando línea a línea y con pry se pueden hacer cambios en el código desde el intérprete.
 
 *******************************SEGUNDA PARTE*****************************************
 34. ¿Qué diferencia hay entre
